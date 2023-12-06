@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>VD | Ejemplo Scrolly</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <section id="header">
+
+      <img class="ImagenEstrellas" src="./Media/Fondo estrellas chicas.png" alt="">
+      <div class="main_title">
+        <span class="letragrande">Accidentes de tránsito,</span> <br><span class="letrachica">la principal causa de muerte violenta en Argentina.</span>
+        <p class="bajada">
+          por <b>Tomás Ibarra</b> y <b>Tiziana Razetto</b>
+        </p>
+      </div>
+      
+
+      
+      
+      <div class="estrella1-container", id="estrella1">
+        <img src="./Media/Estrella grande.png" alt="" width="70" height="70">
+        <span class="popup-text">
+          
+          <strong ><i>Juan Pérez</i></strong>  <span class="date">2000-2019</span> 
+        </span>
+      </div>
+
+      <div class="estrella2-container", id="estrella2">
+        <img src="./Media/Estrella grande.png" alt="Your Image" width="70" height="70">
+        <span class="popup-text">
+          <strong><i>Julia Ahibe</i></strong> <span class="date">1997-2019</span> 
+        </span>
+      </div>
+
+      <div class="estrella3-container", id="estrella3">
+        <img src="./Media/Estrella grande.png" alt="Your Image" width="70" height="70">
+        <span class="popup-text">
+          <strong><i>Mateo Cosso</i></strong>  <span class="date">1994-2019</span> 
+        </span>
+      </div>
+
+      <div class="estrella4-container", id="estrella4">
+        <img src="./Media/Estrella grande.png" alt="Your Image" width="70" height="70">
+        <span class="popup-text">
+          <strong><i>Luz Martínez</i></strong>  <span class="date">1989-2019</span> 
+        </span>
+      </div>
+
+      <div class="estrella5-container", id="estrella5">
+        <img src="./Media/Estrella grande.png" alt="Your Image" width="70" height="70">
+        <span class="popup-text">
+          <strong><i>Lucas Garay</i></strong>  <span class="date">2002-2019</span> 
+        </span>
+      </div>
+
+      <div class="estrella6-container", id="estrella6">
+        <img src="./Media/Estrella grande.png" alt="Your Image" width="70" height="70">
+        <span class="popup-text">
+          <strong><i>Pedro López</i></strong>  <span class="date">1988-2019</span> 
+        </span>
+      </div>
+
+    </section>
+    
+    <section id="Marco_de_Texto">
+      <p class="parrafo">Lorem ipsum dolor sit amet consectetur. Velit sed nulla risus augue facilisis diam mauris. 
+        Aenean porttitor ut interdum proin molestie ut. Diam sed massa faucibus eleifend ornare interdum pulvinar lectus 
+        velit. Venenatis semper sit ut tellus. Ultrices sit sodales vulputate rhoncus semper lorem sed in nec. 
+        Elit pretium eget mattis turpis eu odio egestas blandit. Sit gravida sed vitae leo. Praesent amet vestibulum 
+        leo volutpat cras magna adipiscing arcu. Blandit et et enim et enim arcu lacus interdum neque. Sed turpis cursus 
+        in cras. Cursus non dis ut ac sit dictum amet amet. Turpis mauris eu sed porttitor etiam.. 
+        Nibh diam enim enim rhoncus. Lectus fames sed malesuada eu est aliquet et. Cursus tempor enim a nunc ipsum nunc. 
+         ullamcorper facilisi at velit magna mattis dui integer. Cras sollicitudin nulla et quam a elit. Viverra non facilisi aliquam. </p>
+    </section>
+
+    <div id="Marco_de_scroll">
+      <img src="./Media/scrollea.png" alt="scroll" class="scroll">
+        <h2>
+          <span id="Titulo_1">Muertes violentas,</span>
+          <span id="Titulo_1_1">principales causas</span> 
+        </h2>
+      
+    </div>
+
+    <!-- <section id="Titulo1">
+      <h1>
+        <span id="Titulo_1">Muertes Violentas,</span><br><span id="Titulo_1_1">principales causas</span> 
+      </h1>
+    </section> -->
+
+    <!-- Contenedor de la story de flourish (scrolly)-->
+    <div id="my-wrapper">
+      <!--  Reemplazar el ID de ejemplo por la de la propia story -->
+      <div class="flourish-embed" data-src="story/2112812"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+      <!-- Acá es donde agregás tus epígrafes, vinculándolos a las visualizaciones específicas de la story. Reemplazar los IDs y numerar los slide-1, slide-2, etc. Debe haber uno por cada slide de la story. -->
+      <p><a href=">#story/2112812/slide-1"></a></p>
+      <p><a href="#story/2112812/slide-2"></a></p>
+      <p><a href="#story/2112812/slide-3"></a></p>
+      <p><a href="#story/2112812/slide-4"></a></p>
+      <p><a href="#story/2112812/slide-5"></a></p>
+      <p><a href="#story/2112812/slide-6"></a></p>
+      <p><a href="#story/2112812/slide-7"></a></p>
+    </div>
+
+    <div id="Marco_de_Texto2">
+      <p id="Titulo2">
+ <span id="Titulo_2">Fatalidad del tránsito,</span></i><br><span id="Titulo_2_1"> un alarmante incremento</span> 
+      </p>
+    </div>
+
+  <iframe id="graficolineas" src='https://flo.uri.sh/visualisation/15825525/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:60%;height:450px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/15825525/?utm_source=embed&utm_campaign=visualisation/15825525' target='_top' style='text-decoration:none!important'> 
+
+    <div id="Marco_de_Texto3">
+      <h2 class="Titulo3">
+        <i><span class="Titulo_3">Victimas fatales,</span></i><br><span class="Titulo_3_1"> la región centro concentra el 50%</span> 
+      </h2>
+      </div>
+
+    <!-- Contenedor de la story de flourish (scrolly)-->
+
+    <div id="my-wrapper2">
+
+          <!--  Reemplazar el ID de ejemplo por la de la propia story -->
+          <div class="flourish-embed" data-src="story/2112754"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+    
+          <!-- Acá es donde agregás tus epígrafes, vinculándolos a las visualizaciones específicas de la story. Reemplazar los IDs y numerar los slide-1, slide-2, etc. Debe haber uno por cada slide de la story. -->
+          <p id="cuadro-texto">
+            Según el <b>Anuario Estadístico Vial</b>, realizado por la Dirección Nacional de Observatorio Vial, en el año 2019, <b>4.898 personas</b> perdieron la vida a causa de la <b>siniestralidad vial</b>, con una tasa de 10,9 cada 100 mil habitantes y superando levemente el valor que la OMS considera epidemia (una tasa de mortalidad de 10 cada 100 mil habitantes). Buenos Aires, Santa Fe y Córdoba son las jurisdicciones con mayor cantidad de víctimas fatales, concentrando el 48% del total fallecidos, acorde a su mayor población y parque vehicular. 
+            <a href=">#story/2112754/slide-1"></a>
+          </p>
+    
+          <p id="cuadro-texto">
+            Sin embargo, cuando se analizan las tasas se puede observar que son las jurisdicciones del<b> norte del país</b> aquellas que tienen una mayor proporción relacional de fallecidos. Las regiones NOA y NEA superan en su participación en las víctimas fatales (32%) tanto a la población (20%) como al parque (21%). 
+            <a href="#story/2112754/slide-2"></a>
+          </p>
+          <p id="cuadro-texto">
+            Si se relaciona el <strong>parque vehicular</strong> registrado con la población, se puede analizar la tasa de motorización. Esta medida permite comprender la cantidad de vehículos cada 1.000 habitantes. Para 2019 esta tasa fue de 547,9 para el total, siendo en el caso de los autos 353,2 y de las motos 182,5.   
+            <a href="#story/2112754/slide-3"></a> 
+          </p>
+          <p id="cuadro-texto">
+            En cuanto a la <strong>evolución</strong>, desde el año 2013 al 2019 el parque vehicular manifiesta un crecimiento del<strong> 17%</strong>. Este crecimiento no es homogéneo entre todos los vehículos, sino que se concentra entre las motos, con un crecimiento del<strong> 48%</strong>.
+            <a href="#story/2112754/slide-3"></a>
+          </p>
+          <p id="cuadro-texto">
+            Durante el año 2019 sigue consolidándose al ocupante de<strong> moto</strong> como la principal <strong>víctima fatal</strong>; 4 de cada 10 fallecidos se trasladaban en este tipo de vehículo. Esta proporción es mayor en las jurisdicciones del norte del país, alcanzando su valor más alto en Chaco, Santiago del Estero y La Rioja y Formosa donde 7 de cada 10 fallecidos corresponden a un ocupante de moto. 
+            <a href="#story/2112754/slide-3"></a>
+          </p>
+          <p id="cuadro-texto">
+            Si se comparan la composición según<strong> edad</strong> de las víctimas fatales, se puede visualizar el mayor peso que tiene el rango<strong> 15 a 34 años</strong>. La contrapartida son las niñas y niños, menores de 14 años, con baja participación en las víctimas fatales. Cerca del<strong> 45% de los fallecidos</strong> corresponde a jóvenes entre 15 y 34 años. Para este segmento, según datos del Ministerio de Salud, la siniestralidad vial es la<strong> principal causa de muerte</strong>.
+            <a href="#story/2112754/slide-4"></a> 
+        </div>
+  
+        <div id="Marco_de_Texto4">
+          <h2 class="Titulo4">
+            <i><span class="Titulo_4">Jóvenes y motociclistas,</span></i><br><span class="Titulo_4_1"> las victimas más frecuentes</span> 
+          </h2> 
+       <div id="ambos" style="display: grid; grid-template-columns: 1fr 1fr; padding-left: 5%; margin-top: 2%">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/15717564" style="width: 90%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+        <div class="flourish-embed flourish-chart" data-src="visualisation/15717807" style="width: 90%; display: inline-block; vertical-align: top;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+      </div>
+    </div>
+
+
+  <section id="Marco_de_Texto">
+    <p class="parrafo2"> Lorem ipsum dolor sit amet consectetur. Velit sed nulla risus augue facilisis diam mauris. 
+      Aenean porttitor ut interdum proin molestie ut. Diam sed massa faucibus eleifend ornare interdum pulvinar lectus 
+      velit. Venenatis semper sit ut tellus. Ultrices sit sodales vulputate rhoncus semper lorem sed in nec. 
+      Elit pretium eget mattis turpis eu odio egestas blandit. Sit gravida sed vitae leo. Praesent amet vestibulum 
+      leo volutpat cras magna adipiscing arcu. Blandit et et enim et enim arcu lacus interdum neque. Sed turpis cursus 
+      in cras. Cursus non dis ut ac sit dictum amet amet. Turpis mauris eu sed porttitor etiam.. 
+      Nibh diam enim enim rhoncus. Lectus fames sed malesuada eu est aliquet et. Cursus tempor enim a nunc ipsum nunc. 
+       ullamcorper facilisi at velit magna mattis dui integer. Cras sollicitudin nulla et quam a elit. Viverra non facilisi aliquam.  </p>
+  </section>
+
+  
+  <div id="Marco_de_final">
+    <p class="textofinal1"><b> Fuentes:</b> Anuario Estadístico Vial - Dirección Nacional de Observatorio Vial (2019) <br>
+      <a id="link" href="https://www.argentina.gob.ar/sites/default/files/2018/12/ansv_ov_anuario_estadistico_2019_actualizado_mayo_2022.pdf ">https://www.argentina.gob.ar/sites/default/files/2018/12/ansv_ov_anuario_estadistico_2019_actualizado_mayo_2022.pdf </a>
+    </p> 
+
+    <div class="info">
+      <p class="textofinal2"> <b>Universidad Torcuato Di Tella <br>
+        Visualización de Datos</b><br>
+        Sección 1 - Prof. Carlos Araujo<br>
+        LED | LTD</p>
+<p class="textofinal3">      Autores:<br>
+  <b>Ibarra, Tomás</b><br>
+  <b>Razetto, Tiziana</b></p>
+  </div>
+  </div>
+
+    <!-- Flourish Scrolly -->
+    <script
+      src="https://cdn.flourish.rocks/flourish-scrolly-v3.1.0.min.js"
+      type="text/javascript"
+    ></script>
+
+    <!-- ¡Inicializa la biblioteca para convertir tu historia en magia de desplazamiento! -->
+    <script type="text/javascript">
+      initFlourishScrolly()
+    </script>
+  </body>
+</html>
